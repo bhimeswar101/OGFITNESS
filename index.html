@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG FITNESS - Luxury Fitness Club | Vijayawada</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="OG FITNESS in Vijayawada, Andhra Pradesh is a premium luxury fitness club offering personal training, imported equipment, custom nutrition planning, and 5-star standard facilities. Unleash the OG in you.">
+    <meta name="keywords" content="OG Fitness, Gym in Vijayawada, Luxury Gym Vijayawada, Best Fitness Center Vijayawada, Personal Training Vijayawada, CrossFit, Gym Membership, Custom Workouts">
+    <meta name="author" content="OG FITNESS">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="OG FITNESS - Luxury Fitness Club | Vijayawada">
+    <meta property="og:description" content="Transform your body at Vijayawada's elite 5.0-star rated gym. Certified trainers, modern imported gear, and state-of-the-art programming.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ogfitness.in">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0D0D0D">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&family=Permanent+Marker&family=Cormorant+Garamond:ital,wght@1,300&family=Playfair+Display:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome & Lucide CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress-bar"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Loading Screen (Cinematic Opening Experience) -->
+    <div id="loader">
+        <div class="loader-bg-glow"></div>
+        <div class="loader-content">
+            <!-- Circular Silhouette Logo -->
+            <div class="loader-logo-container">
+                <svg class="loader-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="46" fill="#FFFFFF" stroke="#E10600" stroke-width="2"/>
+                    <!-- Male Silhouette (Left - Black) -->
+                    <path d="M 45,35 C 45,35 41,20 33,20 C 26,20 20,28 20,38 C 20,48 27,58 35,58 C 39,58 45,52 45,52" fill="none" stroke="#0D0D0D" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 33,28 C 36,28 39,32 39,38 C 39,44 36,48 33,48 C 30,48 27,44 27,38 C 27,32 30,28 33,28 Z" fill="#0D0D0D"/>
+                    <path d="M 33,38 L 18,38" stroke="#0D0D0D" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="18" cy="38" r="4" fill="#0D0D0D"/>
+                    <!-- Female Silhouette (Right - Red) -->
+                    <path d="M 55,35 C 55,35 59,20 67,20 C 74,20 80,28 80,38 C 80,48 73,58 65,58 C 61,58 55,52 55,52" fill="none" stroke="#E10600" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 67,28 C 64,28 61,32 61,38 C 61,44 64,48 67,48 C 70,48 73,44 73,38 C 73,32 70,28 67,28 Z" fill="#E10600"/>
+                    <path d="M 67,38 L 82,38" stroke="#E10600" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="82" cy="38" r="4" fill="#E10600"/>
+                    <!-- Muscles & Center silhouette lines -->
+                    <path d="M 46,38 C 48,42 52,42 54,38" fill="none" stroke="#E10600" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M 40,58 L 50,75 L 60,58" fill="none" stroke="#0D0D0D" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </div>
+            
+            <div class="loader-neon-line"></div>
+            
+            <div class="loader-text-wrapper">
+                <h1 class="loader-title"><span class="og-text">OG</span> <span class="fitness-text">FITNESS</span></h1>
+                <p class="loader-subtitle">UNLEASH THE <span class="og-text">OG</span> IN YOU</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Glassmorphism Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="logo">
+                <span class="og-text">OG</span><span class="fitness-text">FITNESS</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#trainers" class="nav-link">Trainers</a>
+                <a href="#membership" class="nav-link">Membership</a>
+                <a href="#transformations" class="nav-link">Transformations</a>
+                <a href="#schedule" class="nav-link">Schedule</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#contact" class="btn-nav magnetic-button">Book Free Trial</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container for Scroll Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div id="particles-js"></div>
+            <div class="hero-smoke-overlay"></div>
+            <div class="hero-glow-effect"></div>
+            
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge reveal-item">
+                        <i class="fa-solid fa-star text-red"></i> 5.0 Google Rated Luxury Gym in Vijayawada
+                    </div>
+                    <h1 class="hero-heading reveal-item">
+                        UNLEASH THE <br>
+                        <span class="og-text hero-og-highlight">OG</span> IN YOU
+                    </h1>
+                    <p class="hero-subheading reveal-item">
+                        Transform Your Body. Build Your Strength. Become Your Best Version at Vijayawada's Elite Private Fitness Club.
+                    </p>
+                    
+                    <div class="hero-buttons reveal-item">
+                        <a href="#membership" class="btn-primary magnetic-button">Join Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn-secondary magnetic-button">Book Free Trial</a>
+                    </div>
+                </div>
+                
+                <!-- Hero Stats Grid -->
+                <div class="hero-stats-grid reveal-item">
+                    <div class="stat-card">
+                        <div class="stat-number-wrapper"><span class="stat-number" data-target="5000">0</span>+</div>
+                        <p class="stat-label">Members Trained</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number-wrapper"><span class="stat-number" data-target="25">0</span>+</div>
+                        <p class="stat-label">Expert Trainers</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number-wrapper"><span class="stat-number" data-target="98">0</span>%</div>
+                        <p class="stat-label">Success Rate</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number-wrapper"><span class="stat-number" data-target="10">0</span>+</div>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-indicator">
+                <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+                <span class="scroll-text">Scroll to Discover</span>
+            </div>
+        </section>
+
+        <!-- Interactive Gym Experience Section -->
+        <section id="interactive-gym" class="interactive-gym-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">Interactive Experience</span>
+                    <h2 class="section-title">THE <span class="og-text">OG</span> 3D GYM SHOWCASE</h2>
+                    <p class="section-desc">Move your cursor to rotate and explore our premium custom-crafted fitness gear.</p>
+                </div>
+                
+                <div class="gym-experience-wrapper">
+                    <!-- 3D Dumbbell Showcase Container -->
+                    <div class="gym-3d-card" id="dumbbell-card">
+                        <div class="gym-3d-glow"></div>
+                        <div class="gym-3d-inner">
+                            <div class="gym-3d-light"></div>
+                            
+                            <!-- Dumbbell 3D Structure built in CSS -->
+                            <div class="dumbbell-3d-object">
+                                <div class="db-handle"></div>
+                                <div class="db-plate plate-l-1"></div>
+                                <div class="db-plate plate-l-2"></div>
+                                <div class="db-plate plate-l-3"></div>
+                                <div class="db-plate plate-r-1"></div>
+                                <div class="db-plate plate-r-2"></div>
+                                <div class="db-plate plate-r-3"></div>
+                                <div class="db-collar collar-l"></div>
+                                <div class="db-collar collar-r"></div>
+                                <div class="db-text"><span class="og-text">OG</span></div>
+                            </div>
+                            
+                            <div class="gym-3d-info">
+                                <h3> Matte-Black Hex <span class="og-text">OG</span> Dumbbell</h3>
+                                <p>Precision forged, vulcanized rubber grip, designed for luxury strength training.</p>
+                                <span class="hint-text"><i class="fa-solid fa-arrows-spin"></i> Move your mouse to rotate</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Interactive Treadmill / Bio-Feedback Showcase -->
+                    <div class="gym-3d-card" id="treadmill-card">
+                        <div class="gym-3d-glow"></div>
+                        <div class="gym-3d-inner">
+                            <div class="gym-3d-light"></div>
+                            
+                            <div class="screen-showcase">
+                                <div class="console-screen">
+                                    <div class="screen-grid">
+                                        <div class="metric">
+                                            <span class="label">SPEED</span>
+                                            <span class="value" id="treadmill-speed">12.8</span><span class="unit">km/h</span>
+                                        </div>
+                                        <div class="metric">
+                                            <span class="label">INCLINE</span>
+                                            <span class="value" id="treadmill-incline">8.0</span><span class="unit">%</span>
+                                        </div>
+                                        <div class="metric">
+                                            <span class="label">HEART RATE</span>
+                                            <span class="value" id="treadmill-hr">145</span><span class="unit">bpm</span>
+                                        </div>
+                                    </div>
+                                    <div class="treadmill-chart">
+                                        <svg class="chart-svg" viewBox="0 0 200 60">
+                                            <path d="M0,45 Q20,30 40,40 T80,20 T120,35 T160,10 T200,30" fill="none" stroke="#E10600" stroke-width="2" class="chart-line"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="screen-footer">SYSTEM STATUS: <span class="status-active">OPTIMAL</span></div>
+                                </div>
+                                <div class="treadmill-controls">
+                                    <button class="btn-treadmill" id="btn-speed-down"><i class="fa-solid fa-minus"></i></button>
+                                    <span class="control-label">INTERACTIVE CONSOLE</span>
+                                    <button class="btn-treadmill" id="btn-speed-up"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                            
+                            <div class="gym-3d-info">
+                                <h3>Smart SmartFit Treadmill</h3>
+                                <p>Integrated bio-metrics tracker. Adjust incline and speed via the dashboard.</p>
+                                <span class="hint-text"><i class="fa-solid fa-hand-pointer"></i> Interact with speed buttons</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <!-- Left: Story & Info -->
+                    <div class="about-left-content">
+                        <span class="sub-title">ESTABLISHED IN VIJAYAWADA</span>
+                        <h2 class="section-title">REDISTRIBUTING POWER, DEFINING THE <span class="og-text">OG</span></h2>
+                        <p class="about-desc">
+                            OG FITNESS is not just another gym; it's a high-performance sanctuary. Designed for those who demand the finest training ecosystem, we blend sports science, imported Italian biomechanical gear, and high-energy luxury styling.
+                        </p>
+                        <p class="about-desc">
+                            Our 5.0-star rating stands testimony to our commitment to hygiene, elite certification coaching, and absolute result transformation tracking. No shortcuts. Just relentless success.
+                        </p>
+                        
+                        <div class="about-cta-wrapper">
+                            <a href="#programs" class="btn-primary magnetic-button">Explore Programs</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Parallax & Glass Cards -->
+                    <div class="about-right-visual">
+                        <div class="about-image-wrapper parallax-container">
+                            <img src="assets/images/gym_interior.png" alt="OG Fitness Luxury Club" class="about-main-image parallax-img">
+                            <div class="red-neon-border-glow"></div>
+                        </div>
+                        
+                        <!-- Feature Cards Grid -->
+                        <div class="about-feature-grid">
+                            <div class="feature-card glass-card">
+                                <div class="icon-box"><i class="fa-solid fa-award"></i></div>
+                                <h4>Certified Trainers</h4>
+                                <p>ISSA, ACE, and NASM expert instructors guiding every lift.</p>
+                            </div>
+                            <div class="feature-card glass-card">
+                                <div class="icon-box"><i class="fa-solid fa-dumbbell"></i></div>
+                                <h4>Premium Equipment</h4>
+                                <p>Imported biomechanic machines optimizing muscle engagement.</p>
+                            </div>
+                            <div class="feature-card glass-card">
+                                <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                                <h4>Personalized Plans</h4>
+                                <p>Custom tailored nutrition blueprints & workout programming.</p>
+                            </div>
+                            <div class="feature-card glass-card">
+                                <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                                <h4>Hygiene & Standards</h4>
+                                <p>Sterilized equipment, absolute luxury ventilation, safe space.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fitness Programs Section -->
+        <section id="programs" class="programs-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">OUR SPECIALTIES</span>
+                    <h2 class="section-title">ELITE <span class="og-text">OG</span> PROGRAMS</h2>
+                    <p class="section-desc">Scientifically curated workout regimes constructed to trigger extreme physical evolution.</p>
+                </div>
+                
+                <div class="programs-grid">
+                    <!-- Program 1 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                            <h3>Strength Training</h3>
+                            <p>Develop heavy lifts, muscle fiber density, and maximum power thresholds through progressive overload.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Program 2 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                            <h3>Weight Loss</h3>
+                            <p>Torch stubborn fat using metabolic conditioning, calorie tracking, and dynamic heart rate control zones.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 3 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <h3>Personal Training</h3>
+                            <p>One-on-one tailored focus with our master certified fitness instructors for accelerated growth.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 4 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                            <h3>Cardio Training</h3>
+                            <p>Boost your VO2 max, cardiovascular threshold, stamina, and recovery capacity with top-tier gear.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 5 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-person-running"></i></div>
+                            <h3>Functional Training</h3>
+                            <p>Improve athletic flexibility, core strength, joint stability, and daily structural movement mechanics.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 6 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-apple-whole"></i></div>
+                            <h3>Nutrition Guidance</h3>
+                            <p>Custom macros breakdowns, nutrient timing, meal schedules, and targeted body fat composition metrics.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 7 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-cubes"></i></div>
+                            <h3>CrossFit</h3>
+                            <p>High-intensity functional combinations. Olympic lifts, gymnastics, and raw cardiorespiratory blast.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 8 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <h3>HIIT Training</h3>
+                            <p>Short explosive intervals triggering maximum metabolic burn and rapid cardiovascular response.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Program 9 -->
+                    <div class="program-card glass-card">
+                        <div class="program-image-overlay" style="background-image: linear-gradient(180deg, rgba(13,13,13,0.3) 0%, rgba(13,13,13,0.95) 90%), url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop');"></div>
+                        <div class="program-content">
+                            <div class="program-icon"><i class="fa-solid fa-child-reaching"></i></div>
+                            <h3>Muscle Building</h3>
+                            <p>Hypertrophy optimized split programming, mechanical tension focus, and structural bulk strategies.</p>
+                            <a href="#contact" class="btn-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="center-footer reveal-item">
+                    <button class="btn-primary magnetic-button" id="btn-recommend-plan">Get Custom Program Recommendation</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose OG FITNESS Section -->
+        <section id="why-choose-us" class="why-us-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="why-left">
+                        <span class="sub-title">THE LUXURY ADVANTAGE</span>
+                        <h2 class="section-title">WHY ELITES TRAIN AT <span class="og-text">OG</span> FITNESS</h2>
+                        <p class="why-desc">We set the gold standard in physical prep. Over 5000+ members have transformed their health matrix inside our state-of-the-art facility.</p>
+                        
+                        <div class="luxury-bullets">
+                            <div class="bullet-item"><i class="fa-solid fa-check text-red"></i> 5.0 Google Rating: Highest satisfaction metric.</div>
+                            <div class="bullet-item"><i class="fa-solid fa-check text-red"></i> Elite Certified Trainers: Real scientific credentials.</div>
+                            <div class="bullet-item"><i class="fa-solid fa-check text-red"></i> Prime Location: Heart of Vijayawada, easy reach.</div>
+                            <div class="bullet-item"><i class="fa-solid fa-check text-red"></i> High-Grade Safety: Premium air filtration & sanitization.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="why-right-grid">
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-id-card"></i>
+                            <h3>Certified Trainers</h3>
+                            <p>Personalized routines coached by certified experts.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-gears"></i>
+                            <h3>Imported Equipment</h3>
+                            <p>High-end bio-mechanic gear imported from top brands.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <h3>Customized Workouts</h3>
+                            <p>Tailored schedules accommodating specific biological goals.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h3>Flexible Memberships</h3>
+                            <p>Choose plans that blend into your professional timeline.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Transformation Tracking</h3>
+                            <p>Periodic body scans and metric reports check progress.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-utensils"></i>
+                            <h3>Diet Planning</h3>
+                            <p>Macro breakdowns and customized healthy recipes list.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-sparkles"></i>
+                            <h3>Hygiene Standards</h3>
+                            <p>Rigorous multiple-times daily cleaning routines.</p>
+                        </div>
+                        <div class="why-card glass-card">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <h3>Smart Fitness Monitor</h3>
+                            <p>App-connected performance telemetry charts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transformation Slider Section -->
+        <section id="transformations" class="transformations-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">CLIENT EVOLUTION</span>
+                    <h2 class="section-title">REAL PEOPLE. REAL RESULTS.</h2>
+                    <p class="section-desc">Slide to reveal the incredible physical transformation of our elite club members.</p>
+                </div>
+                
+                <div class="transformation-container">
+                    <div class="transformation-slider-wrapper">
+                        <!-- Draggable Comparison Slider -->
+                        <div class="comparison-slider" id="comp-slider">
+                            <div class="before-image">
+                                <img src="assets/images/transformation_before.png" alt="Before Transformation">
+                                <div class="image-label label-before">BEFORE</div>
+                            </div>
+                            <div class="after-image" id="after-img-container">
+                                <img src="assets/images/transformation_after.png" alt="After Transformation">
+                                <div class="image-label label-after">AFTER</div>
+                            </div>
+                            <div class="slider-handle" id="slider-handle">
+                                <div class="handle-line"></div>
+                                <div class="handle-button">
+                                    <i class="fa-solid fa-left-right"></i>
+                                </div>
+                                <div class="handle-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="transformation-details glass-card">
+                        <div class="stats-badge"><i class="fa-solid fa-trophy text-red"></i> SUCCESS STORY: RAHUL V.</div>
+                        <h3>Lost 18kg Fat & Gained 5kg Muscle</h3>
+                        <p class="trans-quote">"The imported biomechanic equipment at <span class="og-text">OG</span> FITNESS saved my joints, and the nutrition plans customized by Priya completely reconstructed my health. 5 stars!"</p>
+                        
+                        <div class="transformation-metrics">
+                            <div class="metric-item">
+                                <span class="val">-18kg</span>
+                                <span class="lbl">Body Fat lost</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="val">+5kg</span>
+                                <span class="lbl">Lean Muscle gained</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="val">14 Weeks</span>
+                                <span class="lbl">Total Duration</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Simple Local Storage Progress Tracker Widget -->
+                        <div class="progress-tracker-widget">
+                            <h4>Track Your Own Goal Progress</h4>
+                            <div class="tracker-inputs">
+                                <input type="number" id="track-current-weight" placeholder="Current (kg)">
+                                <input type="number" id="track-target-weight" placeholder="Target (kg)">
+                                <button id="btn-calculate-progress" class="btn-primary">Track</button>
+                            </div>
+                            <div id="tracker-result-msg"></div>
+                            <div class="tracker-progress-bar-container">
+                                <div class="tracker-progress-bar" id="tracker-progress-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trainers Section -->
+        <section id="trainers" class="trainers-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">MASTER COACHES</span>
+                    <h2 class="section-title">MEET THE <span class="og-text">OG</span> SQUAD</h2>
+                    <p class="section-desc">Our coaches hold international qualifications and biological degrees to guide your path safely.</p>
+                </div>
+                
+                <div class="trainers-grid">
+                    <!-- Trainer 1 -->
+                    <div class="trainer-card-wrapper">
+                        <div class="trainer-card glass-card">
+                            <div class="trainer-img-box">
+                                <img src="assets/images/trainer_1.png" alt="Head Trainer Vikram Singh">
+                                <div class="trainer-overlay">
+                                    <div class="social-links">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trainer-info">
+                                <span class="trainer-role">Head Strength Coach</span>
+                                <h3>Vikram Singh</h3>
+                                <div class="trainer-meta">
+                                    <span><i class="fa-solid fa-graduation-cap"></i> ISSA, ACE Certified</span>
+                                    <span><i class="fa-solid fa-dumbbell"></i> 8+ Years Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Trainer 2 -->
+                    <div class="trainer-card-wrapper">
+                        <div class="trainer-card glass-card">
+                            <div class="trainer-img-box">
+                                <img src="assets/images/trainer_2.png" alt="CrossFit Specialist Priya Sharma">
+                                <div class="trainer-overlay">
+                                    <div class="social-links">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trainer-info">
+                                <span class="trainer-role">CrossFit / HIIT Specialist</span>
+                                <h3>Priya Sharma</h3>
+                                <div class="trainer-meta">
+                                    <span><i class="fa-solid fa-graduation-cap"></i> CrossFit L2 Trainer</span>
+                                    <span><i class="fa-solid fa-dumbbell"></i> 6+ Years Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trainer 3 (Fall back placeholder using premium stock placeholder) -->
+                    <div class="trainer-card-wrapper">
+                        <div class="trainer-card glass-card">
+                            <div class="trainer-img-box">
+                                <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=800&auto=format&fit=crop" alt="Functional Training Coach Arjun Rao">
+                                <div class="trainer-overlay">
+                                    <div class="social-links">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trainer-info">
+                                <span class="trainer-role">Nutritionist & Rehab Specialist</span>
+                                <h3>Arjun Rao</h3>
+                                <div class="trainer-meta">
+                                    <span><i class="fa-solid fa-graduation-cap"></i> B.Sc Nutrition, NASM</span>
+                                    <span><i class="fa-solid fa-dumbbell"></i> 5+ Years Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Pricing Section -->
+        <section id="membership" class="pricing-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">INVEST IN YOUR HEALTH</span>
+                    <h2 class="section-title">MEMBERSHIP PLAN MATRIX</h2>
+                    <p class="section-desc">Select the commitment plan that fits your high-performance ambitions.</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <!-- Plan 1 -->
+                    <div class="price-card glass-card">
+                        <div class="price-header">
+                            <h3>Basic Plan</h3>
+                            <div class="price-value"><span class="currency">₹</span>2,499<span class="period">/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check text-red"></i> Full Gym Floor Access</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Lockers & Shower Access</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Standard General Guidance</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Cardio & Spin Classes</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> 1-on-1 Nutritionist Planning</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Personal Trainer Allocation</li>
+                        </ul>
+                        <button class="btn-secondary btn-buy-plan" data-plan="Basic Plan">Choose Plan</button>
+                    </div>
+                    
+                    <!-- Plan 2 (Elite - Popular Highlighted) -->
+                    <div class="price-card glass-card elite-plan">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <div class="price-header">
+                            <h3>Elite Plan</h3>
+                            <div class="price-value"><span class="currency">₹</span>7,999<span class="period">/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check text-red"></i> Unlimited Gym & Cardio Access</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Elite Personal Training (3x/week)</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Customized Nutrition blueprints</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Priority Whatsapp & Coach Support</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Monthly Bio-Scan & Metrics Logs</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Group classes (Yoga, CrossFit, HIIT)</li>
+                        </ul>
+                        <button class="btn-primary btn-buy-plan" data-plan="Elite Plan">Choose Elite Plan</button>
+                    </div>
+                    
+                    <!-- Plan 3 -->
+                    <div class="price-card glass-card">
+                        <div class="price-header">
+                            <h3>Premium Plan</h3>
+                            <div class="price-value"><span class="currency">₹</span>4,499<span class="period">/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check text-red"></i> Full Gym Floor Access</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Cardio Floor Access</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Weekly CrossFit & Group Classes</li>
+                            <li><i class="fa-solid fa-check text-red"></i> Customized General Diet Plan</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Personal Trainer Allocation</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Priority Support Desk</li>
+                        </ul>
+                        <button class="btn-secondary btn-buy-plan" data-plan="Premium Plan">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMI & Fitness Calculators Section -->
+        <section id="calculators" class="calculators-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">PERFORMANCE TELEMETRY</span>
+                    <h2 class="section-title">INTERACTIVE BIOMETRIC CALCULATORS</h2>
+                    <p class="section-desc">Calculate your body parameters instantly and start aligning your nutrition metrics.</p>
+                </div>
+                
+                <div class="calc-tabs-wrapper glass-card">
+                    <div class="calc-tabs-nav">
+                        <button class="calc-tab-btn active" data-tab="bmi"><i class="fa-solid fa-weight-scale"></i> BMI</button>
+                        <button class="calc-tab-btn" data-tab="calories"><i class="fa-solid fa-fire"></i> Calories (BMR)</button>
+                        <button class="calc-tab-btn" data-tab="water"><i class="fa-solid fa-droplet"></i> Water Intake</button>
+                        <button class="calc-tab-btn" data-tab="protein"><i class="fa-solid fa-egg"></i> Protein</button>
+                    </div>
+                    
+                    <div class="calc-tab-content">
+                        <!-- BMI Calculator -->
+                        <div class="calc-panel active" id="calc-bmi">
+                            <div class="calc-grid">
+                                <div class="calc-inputs">
+                                    <div class="input-group">
+                                        <label for="bmi-weight">Weight (kg)</label>
+                                        <input type="number" id="bmi-weight" placeholder="e.g. 70" value="70">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="bmi-height">Height (cm)</label>
+                                        <input type="number" id="bmi-height" placeholder="e.g. 175" value="175">
+                                    </div>
+                                    <button class="btn-primary" id="btn-calc-bmi">Calculate BMI</button>
+                                </div>
+                                <div class="calc-results">
+                                    <h3>Your Body Mass Index</h3>
+                                    <div class="result-number" id="bmi-result-val">22.9</div>
+                                    <p class="result-category">STATUS: <span id="bmi-result-cat" class="text-green">NORMAL</span></p>
+                                    <div class="bmi-range-visual">
+                                        <span class="marker underweight">Under</span>
+                                        <span class="marker normal active">Normal</span>
+                                        <span class="marker overweight">Over</span>
+                                        <span class="marker obese">Obese</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Calorie BMR Calculator -->
+                        <div class="calc-panel" id="calc-calories">
+                            <div class="calc-grid">
+                                <div class="calc-inputs">
+                                    <div class="input-group">
+                                        <label for="bmr-gender">Gender</label>
+                                        <select id="bmr-gender">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="bmr-weight">Weight (kg)</label>
+                                        <input type="number" id="bmr-weight" value="70">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="bmr-height">Height (cm)</label>
+                                        <input type="number" id="bmr-height" value="175">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="bmr-age">Age (years)</label>
+                                        <input type="number" id="bmr-age" value="25">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="bmr-activity">Activity Level</label>
+                                        <select id="bmr-activity">
+                                            <option value="1.2">Sedentary (no workouts)</option>
+                                            <option value="1.375">Lightly Active (1-3 days/wk)</option>
+                                            <option value="1.55">Moderately Active (3-5 days/wk)</option>
+                                            <option value="1.725">Very Active (6-7 days/wk)</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn-primary" id="btn-calc-bmr">Calculate Calories</button>
+                                </div>
+                                <div class="calc-results">
+                                    <h3>BMR (Base Calorie Burn)</h3>
+                                    <div class="result-number" id="bmr-val">1,620</div>
+                                    <p class="unit">Calories / Day</p>
+                                    <h4 class="mt-4">TDEE (Daily Calorie Needs to Maintain)</h4>
+                                    <div class="result-number secondary-res" id="tdee-val">2,511</div>
+                                    <p class="unit">Calories / Day</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Daily Water Intake Calculator -->
+                        <div class="calc-panel" id="calc-water">
+                            <div class="calc-grid">
+                                <div class="calc-inputs">
+                                    <div class="input-group">
+                                        <label for="water-weight">Weight (kg)</label>
+                                        <input type="number" id="water-weight" value="70">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="water-exercise">Daily Exercise Duration (minutes)</label>
+                                        <input type="number" id="water-exercise" value="60">
+                                    </div>
+                                    <button class="btn-primary" id="btn-calc-water">Calculate Water Intake</button>
+                                </div>
+                                <div class="calc-results">
+                                    <h3>Recommended Daily Water Intake</h3>
+                                    <div class="result-number" id="water-val">3.2</div>
+                                    <p class="unit">Liters / Day</p>
+                                    <p class="glasses-count"><i class="fa-solid fa-glass-water text-blue"></i> (Approx. <span id="water-glasses">13</span> glasses of 250ml)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Protein Requirement Calculator -->
+                        <div class="calc-panel" id="calc-protein">
+                            <div class="calc-grid">
+                                <div class="calc-inputs">
+                                    <div class="input-group">
+                                        <label for="protein-weight">Weight (kg)</label>
+                                        <input type="number" id="protein-weight" value="70">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="protein-goal">Training Goal</label>
+                                        <select id="protein-goal">
+                                            <option value="1.2">Maintenance / General Health</option>
+                                            <option value="1.6">Weight Loss (Preserve Muscle)</option>
+                                            <option value="2.0">Muscle Building / Power Lifting</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn-primary" id="btn-calc-protein">Calculate Protein</button>
+                                </div>
+                                <div class="calc-results">
+                                    <h3>Recommended Daily Protein Intake</h3>
+                                    <div class="result-number" id="protein-val">140</div>
+                                    <p class="unit">Grams / Day</p>
+                                    <p class="helper-text mt-4">Equivalent to roughly <span id="protein-eggs">23</span> egg whites or <span id="protein-chicken">560g</span> of cooked chicken breast.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workout Schedule Section -->
+        <section id="schedule" class="schedule-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">WEEKLY MATRIX</span>
+                    <h2 class="section-title">WORKOUT SCHEDULER</h2>
+                    <p class="section-desc">Plan your training week effectively according to our scientific muscle split routines.</p>
+                </div>
+                
+                <div class="schedule-tabs-wrapper">
+                    <div class="schedule-tabs-nav">
+                        <button class="schedule-btn active" data-day="mon">Monday</button>
+                        <button class="schedule-btn" data-day="tue">Tuesday</button>
+                        <button class="schedule-btn" data-day="wed">Wednesday</button>
+                        <button class="schedule-btn" data-day="thu">Thursday</button>
+                        <button class="schedule-btn" data-day="fri">Friday</button>
+                        <button class="schedule-btn" data-day="sat">Saturday</button>
+                        <button class="schedule-btn" data-day="sun">Sunday</button>
+                    </div>
+                    
+                    <div class="schedule-content">
+                        <!-- Monday -->
+                        <div class="schedule-panel active" id="sched-mon">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 AM - 08:00 AM</div>
+                                    <h3>Chest & Triceps Power Split</h3>
+                                    <p>Flat Bench Press, Incline DB Press, Dips, Overhead Tricep extensions. Focus: Maximum load pushing.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Vikram</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">10:00 AM - 11:30 AM</div>
+                                    <h3>Cardio Metabolic Conditioning</h3>
+                                    <p>LISS treadmill walks, incline climb, core matrix circuit.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-med">MED INTENSITY</span>
+                                        <span class="coach">Coach Priya</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 PM - 08:00 PM</div>
+                                    <h3>Chest & Triceps Hypertrophy</h3>
+                                    <p>DB Flyes, Cable pressdowns, skull crushers, chest press machine. Focus: Muscular volume pump.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Arjun</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Tuesday -->
+                        <div class="schedule-panel" id="sched-tue">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 AM - 08:00 AM</div>
+                                    <h3>Back & Biceps Pull Split</h3>
+                                    <p>Deadlifts, Lat pulldowns, Barbell rows, Hammer curls. Focus: Heavy posterior chain loads.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Vikram</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">05:30 PM - 06:30 PM</div>
+                                    <h3>Dynamic CrossFit WOD</h3>
+                                    <p>Cleans, pull-ups, box jumps, rowing machine splits.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">EXTREME</span>
+                                        <span class="coach">Coach Priya</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">07:00 PM - 08:30 PM</div>
+                                    <h3>Biceps & Lats Volumizer</h3>
+                                    <p>Preacher curls, rope pull-overs, DB incline curls, face pulls.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-med">MED INTENSITY</span>
+                                        <span class="coach">Coach Arjun</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Wednesday -->
+                        <div class="schedule-panel" id="sched-wed">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">07:00 AM - 08:30 AM</div>
+                                    <h3>Active Mobility & Core Stability</h3>
+                                    <p>Dynamic stretch matrices, foam rolling, yoga flows, core stability work.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-low">LOW INTENSITY</span>
+                                        <span class="coach">Coach Arjun</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 PM - 07:30 PM</div>
+                                    <h3>High Intensity Interval Training (HIIT)</h3>
+                                    <p>Sprints, battleropes, medicine ball slams, burpees.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Priya</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Thursday -->
+                        <div class="schedule-panel" id="sched-thu">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 AM - 08:00 AM</div>
+                                    <h3>Shoulders & Arms Blast</h3>
+                                    <p>Overhead Press, Lateral raises, DB hammer curls, dips. Focus: Structural width.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Vikram</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:30 PM - 08:30 PM</div>
+                                    <h3>Hypertrophy Arms Split</h3>
+                                    <p>Barbell bicep curls, tricep pushdowns, lateral cable raises.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-med">MED INTENSITY</span>
+                                        <span class="coach">Coach Arjun</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Friday -->
+                        <div class="schedule-panel" id="sched-fri">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 AM - 08:30 AM</div>
+                                    <h3>Lower Body Heavy Squats</h3>
+                                    <p>Barbell squats, RDLs, leg press, lunges, calf press. Focus: Quad & glute strength.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">EXTREME</span>
+                                        <span class="coach">Coach Vikram</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">06:00 PM - 08:00 PM</div>
+                                    <h3>Leg Hypertrophy & Calves</h3>
+                                    <p>Leg extensions, hamstring curls, goblet squats, standing calf raises.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Arjun</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Saturday -->
+                        <div class="schedule-panel" id="sched-sat">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">08:00 AM - 10:00 AM</div>
+                                    <h3>CrossFit Athletic Conditioning</h3>
+                                    <p>Clean and jerks, kettlebell swings, box jumps, assault bike sprints.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">EXTREME</span>
+                                        <span class="coach">Coach Priya</span>
+                                    </div>
+                                </div>
+                                <div class="schedule-card glass-card">
+                                    <div class="card-time">05:00 PM - 07:00 PM</div>
+                                    <h3>Full Body Functional Power</h3>
+                                    <p>Pullups, pushups, sled pushes, farmer walks. Focus: Real-world physical endurance.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-high">HIGH INTENSITY</span>
+                                        <span class="coach">Coach Vikram</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sunday -->
+                        <div class="schedule-panel" id="sched-sun">
+                            <div class="schedule-grid">
+                                <div class="schedule-card glass-card full-span-card">
+                                    <div class="card-time">ALL DAY</div>
+                                    <h3>Absolute Rest & Muscle Repair</h3>
+                                    <p>No workouts recommended. Take hot showers, focus on hydration, and complete macro meal logs. Sleep 8-10 hours to reconstruct muscle tissue.</p>
+                                    <div class="card-footer">
+                                        <span class="tag intensity-low">RECOVERY DAY</span>
+                                        <span class="coach">OG FITNESS Medical Board</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">VISUAL TOUR</span>
+                    <h2 class="section-title">THE <span class="og-text">OG</span> MASONRY</h2>
+                    <p class="section-desc">Take a visual tour inside our luxury facility, high-end machines, and training events.</p>
+                </div>
+                
+                <!-- Gallery Categories Filter -->
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="interior">Interior</button>
+                    <button class="filter-btn" data-filter="equipment">Equipment</button>
+                    <button class="filter-btn" data-filter="workouts">Workouts</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Photo 1 -->
+                    <div class="gallery-item" data-category="interior">
+                        <img src="assets/images/gym_interior.png" alt="OG Fitness Interior Matte Black Styling">
+                        <div class="gallery-item-overlay">
+                            <h4>Luxury Gym Floor</h4>
+                            <p>Matte black plates, red neon lighting, custom sound system.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 2 -->
+                    <div class="gallery-item" data-category="equipment">
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800&auto=format&fit=crop" alt="Premium Biomechanic Bench Press">
+                        <div class="gallery-item-overlay">
+                            <h4>Imported Barbells</h4>
+                            <p>Precision-knurled olympic bars and steel plates.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 3 -->
+                    <div class="gallery-item" data-category="workouts">
+                        <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop" alt="High Intensity Battleropes Session">
+                        <div class="gallery-item-overlay">
+                            <h4>Cardio Burnout Zone</h4>
+                            <p>Metabolic drills with high-density battle ropes.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 4 -->
+                    <div class="gallery-item" data-category="events">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=800&auto=format&fit=crop" alt="OG Annual Deadlift Challenge">
+                        <div class="gallery-item-overlay">
+                            <h4>Strength Showdown</h4>
+                            <p>Annual elite deadlift challenges and member showcases.</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 5 -->
+                    <div class="gallery-item" data-category="equipment">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop" alt="Matte Black Hex Dumbbell Sets">
+                        <div class="gallery-item-overlay">
+                            <h4>Dumbbell Rack Section</h4>
+                            <p>Precision weighted dumbbells ranging up to 60kg.</p>
+                        </div>
+                    </div>
+
+                    <!-- Photo 6 -->
+                    <div class="gallery-item" data-category="interior">
+                        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop" alt="Cardio Runner Treadmill Grid">
+                        <div class="gallery-item-overlay">
+                            <h4>Bio-Cardio Deck</h4>
+                            <p>Premium treadmills overlooking the cityscape.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox for Gallery -->
+        <div class="lightbox" id="gallery-lightbox">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" src="" alt="Zoomed view">
+            <div id="lightbox-caption"></div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="section-container">
+                <div class="center-header">
+                    <span class="sub-title">MEMBER VERDICT</span>
+                    <h2 class="section-title">WHAT THE <span class="og-text">OG</span>s SAY</h2>
+                    <p class="section-desc">Review the verified 5.0-star feedback from our high-performance members.</p>
+                </div>
+                
+                <!-- Infinite Scroll Testimonial Slides -->
+                <div class="testimonial-carousel-wrapper">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <!-- Card 1 -->
+                        <div class="testimonial-card glass-card">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text">"Hands down the best gym in Vijayawada! The environment feels super luxury and private. The coaches are certified and actually correct your posture during heavy sets. Absolute class!"</p>
+                            <div class="user-meta">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop" alt="Member Suresh K.">
+                                <div class="user-info">
+                                    <h4>Suresh K.</h4>
+                                    <span>Lost 12kg (Software Engineer)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Card 2 -->
+                        <div class="testimonial-card glass-card">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text">"The imported biomechanic equipment here hits the target muscle completely different than ordinary gym gear. Clean, premium ventilation, and awesome dark branding!"</p>
+                            <div class="user-meta">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="Member Monica R.">
+                                <div class="user-info">
+                                    <h4>Monica R.</h4>
+                                    <span>Gained Strength (Athlete)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="testimonial-card glass-card">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text">"Absolutely love the high-energy red neon lighting. The music is perfect, and the crowds are highly professional. Joining the Elite package was the best investment I made."</p>
+                            <div class="user-meta">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Member Karthik V.">
+                                <div class="user-info">
+                                    <h4>Karthik V.</h4>
+                                    <span>Shredded 8% Body Fat</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 (Duplicate for seamless infinite scrolling loop) -->
+                        <div class="testimonial-card glass-card">
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            <p class="review-text">"Hands down the best gym in Vijayawada! The environment feels super luxury and private. The coaches are certified and actually correct your posture during heavy sets. Absolute class!"</p>
+                            <div class="user-meta">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop" alt="Member Suresh K.">
+                                <div class="user-info">
+                                    <h4>Suresh K.</h4>
+                                    <span>Lost 12kg (Software Engineer)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-grid-main">
+                    <!-- Left: Form -->
+                    <div class="contact-form-wrapper glass-card">
+                        <h3>Book Your Pass / Registration</h3>
+                        <p>Fill out details below and receive a complimentary 1-day elite pass.</p>
+                        
+                        <form id="fitness-contact-form">
+                            <div class="form-row">
+                                <div class="input-field-wrapper">
+                                    <input type="text" id="contact-name" required placeholder=" ">
+                                    <label for="contact-name">Name</label>
+                                </div>
+                                <div class="input-field-wrapper">
+                                    <input type="tel" id="contact-mobile" required placeholder=" ">
+                                    <label for="contact-mobile">Mobile Number</label>
+                                </div>
+                            </div>
+                            
+                            <div class="input-field-wrapper select-field">
+                                <select id="contact-goal" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="Muscle Gain">Muscle Building & Power Lifting</option>
+                                    <option value="Weight Loss">Weight Loss & Shredding</option>
+                                    <option value="CrossFit / HIIT">Athletic CrossFit & HIIT</option>
+                                    <option value="General Health">General Conditioning & Health</option>
+                                </select>
+                                <label for="contact-goal" class="select-label">Select Fitness Goal</label>
+                            </div>
+                            
+                            <div class="input-field-wrapper textarea-field">
+                                <textarea id="contact-message" required placeholder=" " rows="4"></textarea>
+                                <label for="contact-message">Your Message</label>
+                            </div>
+                            
+                            <div id="contact-form-status-msg"></div>
+                            
+                            <div class="form-ctas">
+                                <button type="submit" class="btn-primary magnetic-button">Submit Request <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Right: Info & Map -->
+                    <div class="contact-info-wrapper">
+                        <span class="sub-title">VISIT THE TEMPLE OF STRENGTH</span>
+                        <h2>LOCATED IN VIJAYAWADA</h2>
+                        <p class="map-desc">Find us in Vijayawada, Andhra Pradesh. Stop by for an immersive walkthrough of our performance floor.</p>
+                        
+                        <div class="contact-details-box">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h4>Physical Address</h4>
+                                    <p>Vijayawada, Andhra Pradesh, India</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <div>
+                                    <h4>Call Us Directly</h4>
+                                    <p>+91 72228 53999</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                                <div>
+                                    <h4>General Inquiry</h4>
+                                    <p>bhimeswarbhimeswar@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Map Embed Frame -->
+                        <div class="map-container glass-card">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122426.31291880459!2d80.57520448107954!3d16.50617429315809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff9a3873e1f%3A0x7d01873ea94917!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1687321289139!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="220" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        
+                        <div class="social-ctas">
+                            <a href="https://wa.me/917222853999" target="_blank" class="btn-whatsapp magnetic-button"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+                            <a href="tel:+917222853999" class="btn-call magnetic-button"><i class="fa-solid fa-phone"></i> Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="og-text">OG</span><span class="fitness-text">FITNESS</span>
+                    </a>
+                    <p class="brand-desc">A premium luxury sports club worth $5,000+ per month experience. Bringing top-grade imported gears and scientific training architecture to Vijayawada.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Story</a></li>
+                        <li><a href="#programs">Training Programs</a></li>
+                        <li><a href="#trainers">Expert Coaches</a></li>
+                        <li><a href="#membership">Membership Matrix</a></li>
+                        <li><a href="#transformations">Client Transformations</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-hours">
+                    <h4>Gym Hours</h4>
+                    <ul>
+                        <li>Monday - Saturday: <span class="hours">05:00 AM - 10:00 PM</span></li>
+                        <li>Sunday: <span class="hours text-red">Closed (Recovery Day)</span></li>
+                        <li>Location: <span class="hours">Vijayawada, Andhra Pradesh</span></li>
+                    </ul>
+                    
+                    <!-- Google reviews badge -->
+                    <div class="google-reviews-badge">
+                        <div class="google-logo"><i class="fa-brands fa-google"></i></div>
+                        <div class="rating-info">
+                            <span class="stars-val"><i class="fa-solid fa-star"></i> 5.0 Rating</span>
+                            <span class="reviews-count">Verified Google Reviews</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Elite Newsletter</h4>
+                    <p>Subscribe to receive high-performance training newsletters and VIP events invites.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right-long"></i></button>
+                    </form>
+                    <span id="newsletter-status"></span>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2026 <span class="og-text">OG</span> <span class="fitness-text">FITNESS</span> Club. All Rights Reserved. Designed to Awwwards Standards.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive AI Fitness Assistant Chatbot -->
+    <div class="chatbot-bubble-wrapper" id="chatbot-wrapper">
+        <button class="chatbot-toggle magnetic-button" id="chatbot-toggle" aria-label="AI Fitness Assistant">
+            <span class="bubble-notification">1</span>
+            <i class="fa-solid fa-robot"></i>
+        </button>
+        
+        <div class="chatbot-panel glass-card" id="chatbot-panel">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar"><i class="fa-solid fa-dumbbell"></i></div>
+                    <div>
+                        <h4><span class="og-text">OG</span> Bot</h4>
+                        <span class="status" id="chatbot-status"><span class="status-dot"></span><span class="status-text">Online</span></span>
+                    </div>
+                </div>
+                <button class="chat-close" id="chat-close" style="background: transparent; border: none; color: var(--color-text-gray); font-size: 1.1rem; cursor: pointer; transition: var(--transition-fast);"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <!-- Welcome Msg -->
+                <div class="chat-msg bot">
+                    <p>Welcome to <span class="og-text">OG</span> FITNESS! I am the <span class="og-text">OG</span> Bot. Ask me about our classes, training schedules, pricing, coaches, workouts, or calculators!</p>
+                    <span class="time">Just now</span>
+                </div>
+            </div>
+            
+            <div class="chat-quick-replies">
+                <button class="btn-quick-reply" data-msg="What are the gym hours?">Hours</button>
+                <button class="btn-quick-reply" data-msg="Where is OG FITNESS located?">Location</button>
+                <button class="btn-quick-reply" data-msg="Show me membership prices">Prices</button>
+                <button class="btn-quick-reply" data-msg="How can I book a free trial?">Free Trial</button>
+            </div>
+            
+            <form class="chat-input-wrapper" id="chat-input-form">
+                <input type="text" id="chat-user-msg" placeholder="Ask AI Coach..." required autocomplete="off">
+                <button type="submit" class="btn-chat-send"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Workout Recommendation Engine Modal -->
+    <div class="modal-overlay" id="recommendation-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <h3><span class="og-text">OG</span> PLAN RECOMMENDER</h3>
+                <p>Answer these 3 quick questions to discover your personalized training regimen.</p>
+            </div>
+            
+            <form id="recommendation-form">
+                <!-- Question 1 -->
+                <div class="modal-step" id="step-1">
+                    <h4 class="step-title">1. What is your primary fitness goal?</h4>
+                    <div class="option-grid">
+                        <label class="option-card">
+                            <input type="radio" name="rec-goal" value="Strength / Hypertrophy" checked>
+                            <span class="option-box">
+                                <i class="fa-solid fa-weight-hanging"></i>
+                                <span>Build Muscle / Strength</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-goal" value="Fat Loss">
+                            <span class="option-box">
+                                <i class="fa-solid fa-circle-nodes"></i>
+                                <span>Lose Weight / Body Fat</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-goal" value="Athleticism / Cardio">
+                            <span class="option-box">
+                                <i class="fa-solid fa-person-running"></i>
+                                <span>Cardio / Endurance</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="modal-step" id="step-2">
+                    <h4 class="step-title">2. How many days per week can you train?</h4>
+                    <div class="option-grid">
+                        <label class="option-card">
+                            <input type="radio" name="rec-days" value="1-3 Days" checked>
+                            <span class="option-box">
+                                <span>1-3 Days (Light)</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-days" value="3-5 Days">
+                            <span class="option-box">
+                                <span>3-5 Days (Moderate)</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-days" value="6 Days">
+                            <span class="option-box">
+                                <span>6 Days (Intense)</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="modal-step" id="step-3">
+                    <h4 class="step-title">3. What is your training experience level?</h4>
+                    <div class="option-grid">
+                        <label class="option-card">
+                            <input type="radio" name="rec-exp" value="Beginner" checked>
+                            <span class="option-box">
+                                <span>Beginner (&lt; 1 year)</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-exp" value="Intermediate">
+                            <span class="option-box">
+                                <span>Intermediate (1-3 years)</span>
+                            </span>
+                        </label>
+                        <label class="option-card">
+                            <input type="radio" name="rec-exp" value="Advanced">
+                            <span class="option-box">
+                                <span>Advanced (3+ years)</span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn-primary" id="btn-get-rec-results">Calculate Recommendation</button>
+                </div>
+            </form>
+            
+            <!-- Result Panel -->
+            <div id="recommendation-results" class="modal-results-panel">
+                <h4>Your Recommendation</h4>
+                <div class="rec-result-box" id="rec-result-text">
+                    <!-- Dynamic -->
+                </div>
+                <button class="btn-primary mt-4" id="btn-rec-join">Get Started on this Plan</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917222853999" class="floating-whatsapp-btn magnetic-button" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Libraries CDNs -->
+    <!-- GSAP Core & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <!-- Main JS Application Logic -->
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
