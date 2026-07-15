@@ -104,9 +104,9 @@ const server = http.createServer((req, res) => {
 
         const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
         const smtpPort = process.env.SMTP_PORT ? parseInt(process.env.SMTP_PORT, 10) : 587;
-        const smtpUser = process.env.SMTP_USER || 'bhimeswarbhimeswar@gmail.com';
+        const smtpUser = process.env.SMTP_USER || 'ogfitness999@gmail.com';
         const smtpPass = process.env.SMTP_PASS || 'mfvkgopaihbmgjpq';
-        const smtpFrom = process.env.SMTP_FROM || `"OG FITNESS" <bhimeswarbhimeswar@gmail.com>`;
+        const smtpFrom = process.env.SMTP_FROM || `"OG FITNESS" <ogfitness999@gmail.com>`;
 
         const transporter = nodemailer.createTransport({
           host: smtpHost,

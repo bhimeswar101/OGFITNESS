@@ -815,7 +815,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         location: {
             keywords: ["location", "address", "where", "landmark", "city", "vijayawada", "ap", "andhra", "map", "locate"],
-            response: "<strong>OG FITNESS</strong> is situated in the premium hub of <strong>Vijayawada, Andhra Pradesh, India</strong>.<br><br>Our facility features dedicated parking spaces, highly filtered central cooling (HEPA standards), luxury steam rooms, and a VIP lounge. Check the Map embed in the Contact section of our page to navigate directly!"
+            response: "<strong>OG FITNESS</strong> is situated in the premium hub of <strong>Vijayawada, Andhra Pradesh, India</strong>.<br><br>Our facility features dedicated parking spaces, highly filtered central cooling (HEPA standards), luxury steam rooms, and a VIP lounge. Visit the Contact section on our page for more details!"
         },
         prices: {
             keywords: ["price", "membership", "fee", "cost", "package", "basic", "premium", "elite", "join", "subscription", "prices"],
